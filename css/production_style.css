@@ -100,6 +100,7 @@ body{
     padding-left: 3%;
     padding-right: 3%;
     text-align: center;
+    font-size: 2vmin;
 }
 .name_place{
     height: 20%;
@@ -112,15 +113,17 @@ body{
 .text_description
 {
     text-align: right;
+    font-size: 2vmin;
 }
 .content_description{
     text-align: center;
+    font-size: 2vmin;
 }
 .name_header{
     text-align: center;
-    line-height: 30px;
+    line-height: 150%;
     margin:0;
-    font-size: 30px;
+    font-size: 3vmin;
     font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #b12121;
@@ -137,23 +140,26 @@ body{
 {
     width: 65%;
     text-align: left;
+    font-size: 2vmin;
 }
 .extra_text{
     margin-top:0%;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 150%;
+    font-size: 3vmin;
     font-weight: 900;
 }
 .menu_button{
     text-align: center;
     margin-top: 3%;
     margin-bottom: 3%;
-    font-size: 20px;
+    font-size: 4vmin;
     background-color: #fffb00;
     border: 1px solid #b12121;
-    height: 35px;
-    width: 200px;
-    line-height: 30px;
+    min-height: 6%;
+    min-width: 8%;
+    max-height: 200%;
+    max-width: 400%;
+    line-height: 150%;
     border-radius: 11px;
 }
 .menu_button:hover{
@@ -163,7 +169,7 @@ body{
 .production_header{
     text-align: center;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 4vmin;
 }
 .images_series{
     display: flex;
