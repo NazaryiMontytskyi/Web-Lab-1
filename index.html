@@ -2,59 +2,157 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Laboratorna robota #1</title>
+    <title>Main</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html, body{
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            width: 100%;
+        }
+        p{
+            font-size: 2vmin;
+        }
+        .page{
+            min-height: 100vh;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 0.7fr 2fr;
+            grid-template-rows: minmax(20%, auto) minmax(1fr, auto) minmax(20%, auto);
+            grid-column-gap: 2%;
+        }
+        .head{
+            background-color: rgb(121, 236, 49);
+            grid-column: 2/4;
+            display: grid;
+            align-items: center;
+            grid-template-columns: 50% 50%;
+        }
+        .menu{
+            background-color: rgb(68, 165, 209);
+            grid-column: 1;
+            grid-row: 1/3;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            padding: 3%;
+        }
+        .content{
+            background-color: rgb(255, 56, 56);
+            grid-column: 2/4;
+            grid-row: 2;
+            display: grid;
+            text-align: center;
+            align-items: center;
+            padding: 3% 5%;
+        }
+        .foot{
+            background-color: rgb(255, 226, 121);
+            grid-column: 2/4;
+            grid-row: 3;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            align-items: center;
+            justify-content: end;
+
+        }
+        .addinfo{
+            background-color: rgb(0, 255, 119);
+            grid-column: 1;
+            grid-row: 3;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .header_moto{
+            margin-left: 10%;
+            background-color: antiquewhite;
+            padding: 5% 10%;
+            width: 25%;
+            min-height: 15%;
+            display: grid;
+            grid-template-columns: minmax(8vh, auto);
+            align-items: center;
+            justify-content: center;
+        }
+        .header_text{
+            text-align: end;
+            margin-right: 5%;
+        }
+        .footer_moto{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+
+        }
+        .footer_text{
+            grid-column: 1/3;
+        }
+       .moto_bg{
+            width: 12vw;
+            min-height: 8vh;
+            background-color: aliceblue;
+            grid-column: 2;
+            text-align: center;
+            padding: 5% 15%;
+            display: grid;
+            align-items: center;
+            grid-template-columns: minmax(8vh, auto);
+       }
+       .menu_button{
+            min-width: 30vmin;
+            min-height: 10vmin;
+            background-color: antiquewhite;
+            text-align: center;
+            display: grid;
+            align-items: center;
+            font-size: 4vmin;
+            border: solid #000;
+            border-radius: 3vmin;
+       }
+    </style>
 </head>
 <body>
-    <div class = "company_info">
-        <div class = "menu">
-            <ul>
-                <ol class = "menu_button"><a href="index.html">Головна</a></ol>
-                <ol class = "menu_button"><a href="production.html">Продукція</a></ol>
-                <ol class = "menu_button"><a href="actions.html">Акції</a></ol>
-                <ol class = "menu_button"><a href="partners.html">Партнери</a></ol>
-                <ol class = "menu_button"><a href="about_us.html">Про нас</a></ol>
-            </ul>
+    <div class="page">
+        <div class="head">
+            <div class="header_moto">
+                <p>Scientia potentia est!</p>
+            </div>
+            <p class = "header_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae obcaecati blanditiis aliquam cumque voluptatem laborum illum commodi, soluta deleniti, ipsum id amet facere praesentium adipisci doloribus eligendi. Adipisci cupiditate ad, quasi officiis, deleniti ut reprehenderit veritatis aperiam, hic tempore assumenda eos. Eum libero dignissimos non qui omnis! Ullam, consequuntur est.</p>
         </div>
-        <div class = "company_description">
-            <p class = "description_text">
-                "Шашлична у Ахмеда" - молодий заклад громадського харчування, який починає розвиватися. Для наших клієнтів ми пропонуємо смачну грузинську кухню, яку ви можете скуштувати за відносно демократичними цінами. Запрошуємо всіх завітати до нас!
+        <div class="menu">
+            <div class="menu_button"><a href="index.html">Головна</a></div>
+            <div class="menu_button"><a href="page2.html">Сторінка №1</a></div>
+            <div class="menu_button"><a href="page3.html">Сторінка №2</a></div>
+            <div class="menu_button"><a href="page4.html">Сторінка №3</a></div>
+            <div class="menu_button"><a href="page5.html">Сторінка №4</a></div>
+        </div>
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo tempore modi ducimus dolor corrupti voluptatibus. Illum error tempora qui minus laudantium corporis dolor fugiat maxime debitis repellendus, rerum voluptates magnam accusantium architecto necessitatibus, nulla ipsum odit corrupti consequuntur. Provident eos, cupiditate dicta veniam dolore aut delectus maxime ea odio cum architecto iste repellat eius deserunt. Hic, vitae facere quo nemo dolor esse sint doloremque at possimus accusantium voluptatum rerum, quia ipsa libero dolorem ducimus similique reprehenderit eaque obcaecati praesentium? Minima et repudiandae magnam? Suscipit natus minima odio ipsam, error nesciunt quos perspiciatis! Maiores facere excepturi non et in pariatur? Dolor ad magnam sit voluptatibus sint dolore aspernatur, labore saepe aliquam eius corporis, qui alias veritatis earum distinctio id placeat voluptatum repellat voluptate harum amet ratione blanditiis. Recusandae consequuntur reprehenderit debitis, sint itaque laborum et iure adipisci ut natus excepturi odit eaque rem veniam odio? Ut accusamus perspiciatis numquam esse aperiam exercitationem fuga dicta nobis alias quaerat praesentium, fugiat eligendi adipisci sint quae facere iusto corrupti sit labore molestias. Amet sequi fugiat accusamus, illo quaerat eius debitis id veritatis tempora nemo soluta corporis, et, nulla quidem voluptatibus hic molestiae possimus temporibus ullam saepe alias tenetur quo. Quidem esse aut assumenda inventore consequuntur expedita hic cupiditate cumque! Nihil, facere? Fugit, pariatur, praesentium fugiat quod, ipsa culpa aut laudantium doloribus perferendis accusantium voluptatem rem tenetur fuga nesciunt tempora soluta! Laudantium, animi est temporibus tenetur optio distinctio, quod vitae autem architecto esse omnis dolore nemo? Cupiditate fugit repudiandae officiis provident nulla vel explicabo.
+            </p>
+        </div>
+        <div class="foot">
+            <p class = "footer_text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, itaque ratione repellendus consectetur quia vero, sunt, fugiat neque nobis velit magni error suscipit porro id! Vel non neque, amet dolor veritatis veniam perferendis libero explicabo, asperiores atque expedita est sed sapiente doloremque magnam nulla voluptatibus fugit hic eligendi earum. Sequi.
+            </p>
+            <div class="footer_moto">
+                <div class="moto_bg">
+                    <p>
+                        Scientia potentia est!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="addinfo">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum a nemo, doloribus aliquid vero ad rem dolorum. Architecto quasi voluptatem rem itaque, assumenda similique tempora!
             </p>
         </div>
     </div>
-    <div class = "content_page">
-        <div class = "header_info">
-            <div class = "name_place">
-                <h1 class = "name_header">
-                    У Ахмеда
-                </h1>
-            </div>
-            <div class = "name_description">
-                <p class = "text_description">
-
-                    Запрошуємо вас на віртуальну подорож до атмосферної шашличної, де запах смаженого м'яса завжди наповнює повітря найкращими сподіваннями. Шашлик - це не просто страва, це справжнє мистецтво приготування, де м'ясо маринується у соковитих приправах та потім смажиться на вогнищі до золотистої скоринки. Ви можете вибрати різні види м'яса, від ніжної курки до ароматного баранячого шашлику. Шашлична - це місце, де друзі та родина збираються разом, щоб насолоджуватися смаком і відпочивати в теплій атмосфері. Закінчується вечір зі сміхом, гарним настроєм та ситними смаками шашлику, які залишаються в пам'яті на довгий час.                </p>
-            </div>
-        </div>
-        <div class = "content_part">
-            <p class = "content_description">
-                У серці міста розташована неймовірно атмосферна шашлична "У Ахмеда". Цей заклад завжди приваблює своїми відкритими вогнищами, де ви можете спостерігати, як відбувається чарівне перетворення сирого м'яса в справжній шедевр смаку.
-
-                "У Ахмеда" - це місце, де кожен гість знаходить щось для себе. Ми пропонуємо різноманітні види м'яса - від ніжної курки до ароматного баранячого шашлику. Наші кухарі маринують м'ясо у соковитих приправах, надаючи йому неперевершений смак.
-                
-                Крім шашлику, ви можете скуштувати смачні гарніри, свіжий салат і гарячий лаваш, що робить прийом їжі ще вишуканішим. Ми завжди дбаємо про якість продуктів і робимо все можливе, щоб наші гості почували себе комфортно та задоволеними.
-                
-                З роками "У Ахмеда" стала справжньою інституцією для всієї родини і друзів, де розгортаються справжній смачний фестиваль. Ми пишаємося нашою історією та розвитком і завжди готові зустріти нових гостей, які хочуть насолодитися найкращими шашликами в місті. Якщо ви шукаєте місце для гарного відпочинку та вишуканої кухні, "У Ахмеда" - це ваш найкращий вибір. Завітайте і переконайтеся самі!            </p>
-        </div>
-        <div class = "extra_info">
-            <div class = "extra_info_text">
-                <p>
-                    Шашлична - це чудове місце для насолоди ароматними шашликами та теплою атмосферою. У нас ви знайдете різноманітні види смачного м'яса, які маринуються у соковитих приправах та смажаться на вогнищі. Гарячі шашлики, свіжий лаваш і смачні гарніри - все це чекає на вас в нашій шашличні. Запрошуємо вас на смачну подорож в світ шашликів!                </p>
-            </div>
-            <div class = "extra_info_name_place">
-                <h2 class = "extra_text">І поїсти, і погризти!</h2>
-            </div>
-        </div>
-    </div>
-    
 </body>
 </html>

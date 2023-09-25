@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html, body{
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            width: 100%;
+        }
+        
+        .page{
+            min-height: 100vh;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 0.7fr 2fr;
+            grid-template-rows: minmax(20%, auto) minmax(1fr, auto) minmax(20%, auto);
+            grid-column-gap: 2%;
+        }
+        .head{
+            background-color: rgb(121, 236, 49);
+            grid-column: 2/4;
+            display: grid;
+            align-items: center;
+            grid-template-columns: 50% 50%;
+        }
+        .menu{
+            background-color: rgb(68, 165, 209);
+            grid-column: 1;
+            grid-row: 1/3;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            padding: 3%;
+        }
+        .content{
+            background-color: rgb(255, 56, 56);
+            grid-column: 2/4;
+            grid-row: 2;
+            display: grid;
+            text-align: center;
+            align-items: center;
+            padding: 3% 5%;
+        }
+        .foot{
+            background-color: rgb(255, 226, 121);
+            grid-column: 2/4;
+            grid-row: 3;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            align-items: center;
+            justify-content: end;
+
+        }
+        .addinfo{
+            background-color: rgb(0, 255, 119);
+            grid-column: 1;
+            grid-row: 3;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .header_moto{
+            margin-left: 10%;
+            background-color: antiquewhite;
+            padding: 5% 10%;
+            width: 25%;
+            min-height: 15%;
+            display: grid;
+            grid-template-columns: minmax(8vh, auto);
+            align-items: center;
+            justify-content: center;
+        }
+        .header_text{
+            text-align: end;
+            margin-right: 5%;
+        }
+        .footer_moto{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+
+        }
+        .footer_text{
+            grid-column: 1/3;
+        }
+       .moto_bg{
+            width: 12vw;
+            min-height: 8vh;
+            background-color: aliceblue;
+            grid-column: 2;
+            text-align: center;
+            padding: 5% 15%;
+            display: grid;
+            align-items: center;
+            grid-template-columns: minmax(8vh, auto);
+       }
+       .menu_button{
+            min-width: 30vmin;
+            min-height: 10vmin;
+            background-color: antiquewhite;
+            text-align: center;
+            display: grid;
+            align-items: center;
+            font-size: 4vmin;
+            border: solid #000;
+            border-radius: 3vmin;
+       }
+       p{
+            font-size: 2vmin;
+       }
+       .page_image{
+            max-width: 75%;
+            max-height: 60%;
+            min-width: 2vmin;
+            min-height: 1vmin;
+            align-self: center;
+            border-radius: 15%;
+       }
+       .images{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: repeat(3, 25%);
+       }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="head">
+            <div class="header_moto">
+                <p>Scientia potentia est!</p>
+            </div>
+            <p class = "header_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae obcaecati blanditiis aliquam cumque voluptatem laborum illum commodi, soluta deleniti, ipsum id amet facere praesentium adipisci doloribus eligendi. Adipisci cupiditate ad, quasi officiis, deleniti ut reprehenderit veritatis aperiam, hic tempore assumenda eos. Eum libero dignissimos non qui omnis! Ullam, consequuntur est.</p>
+        </div>
+        <div class="menu">
+            <div class="menu_button"><a href="index.html">Головна</a></div>
+            <div class="menu_button"><a href="page2.html">Сторінка №1</a></div>
+            <div class="menu_button"><a href="page3.html">Сторінка №2</a></div>
+            <div class="menu_button"><a href="page4.html">Сторінка №3</a></div>
+            <div class="menu_button"><a href="page5.html">Сторінка №4</a></div>
+        </div>
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fugiat distinctio ullam, debitis atque assumenda at rerum accusamus labore eos ipsam quaerat corrupti. Quo mollitia impedit voluptatem, dolor animi consectetur, nostrum, quos veritatis sequi a labore? Ut molestias, cumque, harum sed deleniti similique mollitia eum voluptate dolorem corporis omnis pariatur corrupti totam! Magnam natus beatae, tenetur reiciendis repellendus expedita non voluptate vel delectus excepturi quis enim aspernatur nostrum accusamus eos ex odit voluptatem sequi sunt! Quaerat asperiores, explicabo architecto reiciendis rem sapiente velit excepturi aperiam. Praesentium, quam culpa consequuntur vel enim tenetur perspiciatis in dignissimos quibusdam omnis quaerat corrupti voluptates.
+            </p>
+            <div class="images">
+                <img src="img/mountains_1.jpg" alt="" class="page_image">
+                <img src="img/mountains_2.jpg" alt="" class="page_image">
+                <img src="img/mountains_3.jpg" alt="" class="page_image">
+            </div>
+        </div>
+        <div class="foot">
+            <p class = "footer_text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, itaque ratione repellendus consectetur quia vero, sunt, fugiat neque nobis velit magni error suscipit porro id! Vel non neque, amet dolor veritatis veniam perferendis libero explicabo, asperiores atque expedita est sed sapiente doloremque magnam nulla voluptatibus fugit hic eligendi earum. Sequi.
+            </p>
+            <div class="footer_moto">
+                <div class="moto_bg">
+                    <p>
+                        Scientia potentia est!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="addinfo">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum a nemo, doloribus aliquid vero ad rem dolorum. Architecto quasi voluptatem rem itaque, assumenda similique tempora!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
