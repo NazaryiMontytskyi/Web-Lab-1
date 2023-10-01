@@ -64,8 +64,6 @@ p{
 }
 .content_place{
     background-color: #52ff3b;
-    flex: 10;
-    flex-grow: 10;
     min-height: 50vh;
 }
 
